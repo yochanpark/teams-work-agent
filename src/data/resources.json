@@ -1,0 +1,9 @@
+[
+  { "id": "MR-201", "type": "회의실", "name": "회의실 201", "location": "본관 2층", "capacity": 4, "facility": ["모니터"] },
+  { "id": "MR-202", "type": "회의실", "name": "회의실 202", "location": "본관 2층", "capacity": 6, "facility": ["모니터", "화이트보드"] },
+  { "id": "MR-301", "type": "회의실", "name": "회의실 301", "location": "본관 3층", "capacity": 12, "facility": ["빔프로젝터", "화이트보드", "화상회의"] },
+  { "id": "CAR-01", "type": "법인차량", "name": "법인차량 1호(승용)", "location": "지하 2층 주차장", "capacity": 5, "facility": ["하이패스"] },
+  { "id": "CAR-02", "type": "법인차량", "name": "법인차량 2호(승합)", "location": "지하 2층 주차장", "capacity": 9, "facility": ["하이패스"] },
+  { "id": "ST-01", "type": "스튜디오", "name": "촬영 스튜디오", "location": "별관 1층", "capacity": 8, "facility": ["조명", "크로마키", "카메라"] },
+  { "id": "WASH-01", "type": "세차장", "name": "세차 베이 1", "location": "지하 2층", "capacity": 1, "facility": [] }
+]

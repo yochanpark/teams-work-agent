@@ -1,0 +1,20 @@
+{
+  "name": "teams-work-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Teams 자연어 근태·자원 예약 요청을 LLM으로 구조화해 RPA로 넘기는 업무 에이전트",
+  "type": "module",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "test": "node --test test/*.test.js",
+    "eval": "node --env-file-if-exists=.env eval/run.js"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "botbuilder": "^4.23.0",
+    "express": "^4.21.2"
+  }
+}
